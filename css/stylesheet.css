@@ -1,0 +1,298 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  max-width: 960px;
+  max-width: 600px;
+  margin: auto;
+  font-family: "新細明體", "細明體", Arial, Verdana, Helvetica, sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #333333; }
+
+.navtop {
+  float: right;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 36px;
+  line-height: 12px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+  .navtop a:hover {
+    color: #ff9900; }
+
+.nav_top01 {
+  display: inline-block;
+  font-size: 12px; }
+
+li {
+  list-style-type: none; }
+
+/*
+container########################
+ */
+.container {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  top: 10px;
+  line-height: 12px; }
+
+table {
+  padding: 0;
+  border-spacing: 0; }
+
+#middle {
+  width: 446px; }
+  #middle div {
+    font-weight: bold; }
+
+.table_program_air {
+  padding: 3;
+  border-spacing: 1px;
+  width: 681px; }
+
+td > div {
+  text-align: center; }
+
+.trtitle {
+  background-color: #99CC00; }
+
+#special {
+  width: 391; }
+  #special strong {
+    font-weight: blod; }
+
+.list a {
+  color: black; }
+  .list a:hover {
+    color: orange; }
+  .list a:visited {
+    color: red; }
+  .list a:nth-child(2) {
+    color: orange; }
+
+#intro {
+  margin-top: 30px; }
+
+.image {
+  margin-left: -5px; }
+
+#close {
+  position: relative;
+  right: 5px; }
+
+.list {
+  font-size: 13px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  max-width: 150px;
+  position: relative;
+  left: 310px;
+  width: 200px;
+  color: white;
+  margin-right: 23px; }
+
+.line {
+  width: 160px; }
+
+.container02 {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  top: 20px;
+  left: -15px; }
+
+#position {
+  background-color: black;
+  width: 300px;
+  height: 304px;
+  color: white;
+  font-size: 13px; }
+  #position p {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    line-height: 20px; }
+  #position img {
+    position: relative;
+    top: 20px;
+    left: 30px; }
+
+/*
+article ######################
+ */
+.song {
+  position: relative;
+  top: 30px;
+  font-size: 12px;
+  width: 11%; }
+
+.main {
+  width: 71%;
+  float: left;
+  position: relative;
+  top: 5px;
+  left: -18px; }
+
+.songlist {
+  background-color: #EEF5DF;
+  width: 30%; }
+
+.article {
+  float: left; }
+
+#black {
+  width: 250px;
+  height: 100px;
+  background-color: black;
+  margin: 0;
+  float: left;
+  margin-right: 20px; }
+
+.picture {
+  float: left;
+  clear: left;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  font-size: 12px; }
+
+.content {
+  margin-top: 15px; }
+  .content p {
+    font-size: 0.7em;
+    line-height: 1.7;
+    padding-right: 20px;
+    width: 98%; }
+
+#content1 {
+  margin-top: 20px; }
+
+content div {
+  padding-top: 20px; }
+
+.content img {
+  float: left;
+  clear: left;
+  margin-right: 20px;
+  width: 36.7%;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+#title {
+  padding-bottom: 20px;
+  display: inline-block;
+  font-size: 1.4em; }
+
+.title_15_green {
+  font-size: 1.4em; }
+
+.description {
+  margin-top: 40px; }
+
+hr {
+  border: 1px #ff9900 dotted;
+  width: 100%; }
+
+.text_brown {
+  font-size: 14px;
+  color: red; }
+
+#second {
+  margin-bottom: 100px; }
+
+#white {
+  width: 250px;
+  height: 230px;
+  background-color: white;
+  margin: 0;
+  float: left;
+  margin-right: 20px;
+  clear: left; }
+
+#white01 {
+  width: 260px;
+  height: 0px;
+  background-color: white;
+  float: left;
+  clear: both; }
+
+/*
+aside #######################
+ */
+.side {
+  width: 24%;
+  height: 1750px;
+  float: right;
+  background-color: #EEF5DF;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 0.7em;
+  line-height: 1.7;
+  position: relative;
+  right: 15px;
+  top: 50px; }
+  .side span {
+    font-size: 1.4em; }
+
+.text_grey {
+  font-size: 1.2em; }
+
+#spacer_green {
+  margin-left: -5px;
+  margin-top: 0px; }
+
+#btop {
+  float: right;
+  position: absolute;
+  top: 70px;
+  right: 0px; }
+
+#btline {
+  position: relative;
+  top: 90px; }
+
+footer {
+  position: relative;
+  clear: both; }
+
+#logo_artcenter {
+  position: relative;
+  top: 90px;
+  float: left; }
+
+.link {
+  position: relative;
+  top: 60px;
+  float: right;
+  clear: right;
+  line-height: 25px; }
+
+.school {
+  position: relative;
+  top: 90px;
+  font-size: 12px; }
+
+#bottom {
+  width: 100%;
+  background-color: green;
+  height: 10px;
+  position: relative;
+  top: 100px;
+  margin-top: 20px;
+  margin-bottom: 90px; }
+
+/*# sourceMappingURL=stylesheet.css.map */
